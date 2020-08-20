@@ -1,1 +1,5 @@
-App.cable.subscriptions.create({channel: "MessageChannel"})
+App.cable.subscriptions.create({channel: "MessageChannel"}, {
+
+    }
+
+)

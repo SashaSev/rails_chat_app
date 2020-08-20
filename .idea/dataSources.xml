@@ -7,5 +7,29 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails not_chat_app: development" uuid="399c5e61-9607-422a-9237-17eb6091a666">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/not_chat_app_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails not_chat_app: test" uuid="546dde21-8f02-4b3a-950d-b377616878db">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/not_chat_app_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails not_chat_app: production" uuid="f77cb639-1247-42d6-9d84-de8bdbfe0cb2">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/not_chat_app_production</jdbc-url>
+    </data-source>
   </component>
 </project>

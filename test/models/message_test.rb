@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-class SessionsControllerTest < ActionDispatch::IntegrationTest
+class MessageTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

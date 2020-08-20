@@ -5,13 +5,13 @@
 # below each fixture, per the syntax in the comments below
 #
 one: {
-  email: "aaa@gmail.com",
-  password: "Sdsada"
+  content: "dasdas",
+  user_id: 1
 }
 # column: value
 #
 two: {
-  email: "bbb@gmail.com",
-  password: "qwerty"
+  content: "dgfgfhf",
+  user_id: 2
 }
 # column: value

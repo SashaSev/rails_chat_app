@@ -1,8 +1,7 @@
+# frozen_string_literal: true
+
 class SessionsController < ApplicationController
-  def create
+  def create; end
 
-  end
-  def destroy
-
-  end
+  def destroy; end
 end
